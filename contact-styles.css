@@ -43,8 +43,9 @@ body {
 #header-text {
     /* display: flex; */
     position: fixed;
-    top: 44%;
+    top: 45%;
     left: 10%;
+    /* font-size: 30px; */
  }
 
  #dots {

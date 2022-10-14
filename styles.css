@@ -24,22 +24,7 @@ a {
 }
 
 
-  .nav-other {
-    /* align-self: space-around; */
-  }
   
-  /* .nav-home {
-
-  } */
-
-  /* #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  } */
-
   #background-video {
     width: 100vw;
     height: 110vh;
@@ -52,22 +37,6 @@ a {
     z-index: -1;
   }
 
-body {
-    /* background-image: url('images/pink-cloud.gif');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
-    /* background-color: rgb(235, 244, 248); */
-    /* background-image: url('images/smoke-background-gif.gif'); */
- 
-}
-
-main {
-    /* display:flex;
-    justify-content: center;
-    align-content: center; */
-    /* background-image: url('images/static-single-cloud-transparent.png'); */
-}
 
 .wrapper {
     width: 100%;
@@ -83,6 +52,10 @@ main {
     align-items: center;
     justify-content: center;
     scroll-snap-align: start
+ }
+
+ .two {
+    height: 150vh;
  }
 
  #container {

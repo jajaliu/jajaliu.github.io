@@ -12,17 +12,15 @@ header {
     font-size: 15px;
     font-family: 'Assistant', sans-serif;
     color: white;
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
 
 } 
-
-/* nav {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-} */
 
 a {
     color: rgb(226, 225, 225);
@@ -67,6 +65,7 @@ body {
  div {
     display: flex;
     flex-direction: column;
+    /* align-self: flex-end; */
     margin-left: auto;
 
     /* justify-content: flex-end; */
@@ -98,6 +97,7 @@ body {
     position: fixed;
     top: 44%;
     left: 10%;
+    /* font-size: 30px; */
  }
 
  /* Media Queries */

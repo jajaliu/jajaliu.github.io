@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+
+header {
+    display:flex;
+    justify-content:space-between;
+    font-size: 13px;
+    font-family: 'Assistant', sans-serif;
+    color: white;
+
+} 
+
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: rgb(235, 244, 248);
+}
+
+main {
+    color: darkgrey;
+}
+

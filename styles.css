@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap');
+
+header {
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+
+} 
+
+a {
+    color: rgb(226, 225, 225);
+    text-decoration: none;
+}
+
+
+  .nav-other {
+    /* align-self: space-around; */
+  }
+  
+  /* .nav-home {
+
+  } */
+
+  /* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  } */
+
+  #background-video {
+    width: 100vw;
+    height: 110vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+body {
+    /* background-image: url('images/pink-cloud.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    /* background-color: rgb(235, 244, 248); */
+    /* background-image: url('images/smoke-background-gif.gif'); */
+ 
+}
+
+main {
+    /* display:flex;
+    justify-content: center;
+    align-content: center; */
+    /* background-image: url('images/static-single-cloud-transparent.png'); */
+}
+
+.wrapper {
+    width: 100%;
+    height: 110vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+ }
+
+ section {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start
+ }
+
+ #container {
+    /* display:flex;
+    justify-content: center;
+    align-content: center; */
+    /* position: absolute; */
+    color: white;
+    /* max-width: 100%; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+#name {
+    /* align-self: center */
+    /* justify-content: center; */
+ 
+    /* position: absolute; */
+    /* top: 100%;
+    left: 50%; */
+    align-self: center;
+    font-size: 65px;
+    /* transform: translate(-50%, -50%); */
+    white-space: nowrap;
+    color: white;
+    /* position: relative; */
+    /* z-index: 1; */
+   
+  }
+
+  #arrow {
+    /* position: absolute; */
+    /* top: 90%;
+    left: 50%; */
+    height: 20px;
+    width: 15px;
+    align-self: center;
+    align-items:baseline;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    /* position: absolute;
+    z-index: 2; */
+    /* width: 200px; */
+  }
+
+  #profile-photo {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    align-content: space-around;
+  }
+
+  #bio {
+    color:white;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  
+
+  /* #cloud {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* position: absolute;
+    z-index: 2; */
+    /* width: 200px; */
+  /* } */
+
+  /* #cloud2 {
+    position: absolute;
+    top: 44%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 300px */
+    /* position: absolute;
+    z-index: 2; */
+    /* width: 200px; */
+  /* } */
+
+   /* .two {
+    background-color: rgb(37, 65, 77);
+ } */
+
+
+/* #container { */
+    /* display:flex;
+    justify-content: center;
+    align-content: center; */
+    /* position: absolute; */
+    /* color: white;
+    max-width: 100%;
+    position: relative;
+  } */
+
+
+/* #header-text{
+    background-image: url('images/static-single-cloud-transparent.png');
+} */
+

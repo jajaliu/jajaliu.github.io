@@ -27,6 +27,28 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: 1;
+  }
+  
+  a::before {
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: white;
+  }
+  
+  a::before {
+    height: 0%;
+    width: 8px;
+    bottom: 0px;
+  }
+  
+  a:hover::before {
+    height: 1px;
+  }
+    
 
   #background-video {
     width: 100vw;
@@ -103,7 +125,7 @@ body {
  /* Media Queries */
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .project {
         height: 150px;
     }

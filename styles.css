@@ -21,11 +21,32 @@ header {
 a {
     color: rgb(226, 225, 225);
     text-decoration: none;
+    
 }
 
+a:hover {
+  opacity: 1;
+}
 
+a::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: white;
+}
+
+a::before {
+  height: 0%;
+  width: 8px;
+  bottom: 0px;
+}
+
+a:hover::before {
+  height: 1px;
+}
   
-  #background-video {
+#background-video {
     width: 100vw;
     height: 110vh;
     object-fit: cover;
@@ -35,7 +56,7 @@ a {
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+}
 
 
 .wrapper {

@@ -23,6 +23,29 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: 1;
+}
+  
+a::before {
+    transition: 300ms;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: white;
+}
+  
+a::before {
+    height: 0%;
+    width: 8px;
+    bottom: 0px;
+}
+  
+a:hover::before {
+    height: 1px;
+}
+    
+
 body {
     color: white;
 
@@ -73,6 +96,7 @@ form {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 5px;
+   
 }
 
 .form-item label {
@@ -99,6 +123,7 @@ form {
     font-size: 12px;
     border: 2px solid white;
     font-family: 'Assistant', sans-serif;
+    border-radius: 10px; 
 }
 
 .form-item button:hover {
@@ -113,43 +138,70 @@ form {
 }
 
 .logo {
-    height: 24px;
+    height: 20px;
     filter: invert(100%);
     -webkit-filter: invert(100%);
-    margin-right:10px;
+    padding: 5px;
+    /* margin-right:10px; */
     bottom: 30px;
+   
+}
+
+
+#hero {
+    /* position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    /* display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    width: 200px;
+    height: 370px; */
+  
 }
 
 #external-links {
     position: fixed;
-    bottom: 0;
+    bottom: 30px;
     right: 0;
-    left: 0;
-    display: flex;
-    justify-content: flex-end;
-  
+    left: 40%;
 }
+
+/* #github-link {
+    align-self: flex-start;
+    align-content: center;
+}
+
+#linkedin-link {
+    align-self: center;
+    align-content: center;
+} */
 
 /* Media Queries */
 
-
-/* @media (max-width: 800px) {
-    form {
-        height: 150px;
-    }
-   
-} */
 
 @media (max-width: 600px) {
     /* #hero {
         display: flex;
         justify-content: flex-start;
     } */
-    #header-text {
-        position: relative;
-        top: 5%;
+
+    /* main {
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    #hero {
         align-self: center;
-        margin-left: 125%;
+    } */
+    #header-text {
+        /* position: relative; */
+        /* top: 5%; */
+        /* align-self: flex-start; */
+        /* margin-left: 125%; */
+        top: 8%;
+        left: 35%;
         white-space: nowrap;
         /* text-align: center; */
     }

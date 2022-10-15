@@ -77,6 +77,7 @@ a:hover::before {
 
  .two {
     height: 150vh;
+    animation-delay: 3s;
  }
 
  #container {
@@ -93,20 +94,35 @@ a:hover::before {
   }
 
 #name {
-    /* align-self: center */
-    /* justify-content: center; */
- 
-    /* position: absolute; */
-    /* top: 100%;
-    left: 50%; */
+
     align-self: center;
     font-size: 65px;
-    /* transform: translate(-50%, -50%); */
     white-space: nowrap;
     color: white;
-    /* position: relative; */
-    /* z-index: 1; */
-   
+    animation: 2s anim-lineUp ease 0s normal forwards 1 running;
+    /* animation-fill-mode: forwards; */
+    /* -webkit-animation-fill-mode: forwards; */
+  }
+
+  /* .lineUp {
+    
+  } */
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
 
   #arrow {
@@ -119,6 +135,7 @@ a:hover::before {
     align-items:baseline;
     filter: invert(100%);
     -webkit-filter: invert(100%);
+    animation: 2s anim-lineUp ease 0s normal forwards 1 running;
     /* position: absolute;
     z-index: 2; */
     /* width: 200px; */
@@ -139,6 +156,9 @@ a:hover::before {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    /* animation-delay: 10s; */
+    /* animation: 2s anim-lineUp ease 0s normal forwards 1 running; */
+    
   }
 
   

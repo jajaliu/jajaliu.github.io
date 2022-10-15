@@ -119,8 +119,29 @@ body {
     position: fixed;
     top: 44%;
     left: 10%;
+    animation:1s anim-lineUp ease 0s normal forwards 1 running;
+
     /* font-size: 30px; */
  }
+
+ @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
 
  /* Media Queries */
 

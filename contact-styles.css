@@ -68,8 +68,29 @@ body {
     position: fixed;
     top: 45%;
     left: 10%;
+    animation: 1s anim-lineUp ease 0s normal forwards 1 running;
+    /* animation: 2s anim-lineUp ease-out infinite; */
     /* font-size: 30px; */
  }
+
+ @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
 
  #dots {
     height: 50px;
@@ -165,7 +186,7 @@ form {
     position: fixed;
     bottom: 30px;
     right: 0;
-    left: 40%;
+    left: 50%;
 }
 
 /* #github-link {
@@ -204,6 +225,13 @@ form {
         left: 35%;
         white-space: nowrap;
         /* text-align: center; */
+    }
+
+    #external-links {
+        position: fixed;
+        bottom: 30px;
+        right: 0;
+        left: 40%;
     }
 
     .form-item {
